@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init('user_9yHhgMG0AV7gN3D71caKH');
+        })();
+    </script>
+    <script
+      src="https://kit.fontawesome.com/87f14d78d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="navbar bg-primary">
+      <h1>
+        <a href="#"><i class="fas fa-code"></i></a>
+      </h1>
+      <ul>
+        <li><a href="img/Resume.pdf" target="_blank">Download resume</a></li>
+        <li><a href="#tabs" class="about-nav">About</a></li>
+        <li><a href="#tabs" class="contact-nav">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="landing">
+      <div class="dark-overlay">
+        <div class="landing-inner">
+          <h1 class="x-large headline">WELCOME</h1>
+          <p class="lead"> <span class="bio">Hello, I am Munkhtur,</span> </p>
+          <p class="lead">
+            <span class="txt-type" data-wait='3000' data-words='["aspiring developer", "designer", "learner"]'></span></p>
+        </div>
+      </div>
+    </section>
+    <a name="tabs"></a>
+    <section class="tabs bg-secondary" >
+      <div class="container">
+        <div id="tab-1" class="tab-item tab-border">
+            <i class="fas fa-code-branch fa-2x"></i>
+          <p class="hide-sm">Projects</p>
+        </div>
+        <div id="tab-2" class="tab-item">
+          <i class="fas fa-user fa-2x"></i>
+          <p class="hide-sm">About</p>
+        </div>
+        <div id="tab-3" class="tab-item">
+          <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
+          <p class="hide-sm">Skills</p>
+        </div>
+        <div id="tab-4" class="tab-item">
+          <i class="fas fa-address-card fa-2x"></i>
+          <p class="hide-sm">Contact</p>
+        </div>
+      </div>
+    </section>
+    <section class="tab-content">
+      <div class="container">
+        <!-- tab content 1 -->
+        <div id="tab-1-content" class="tab-content-item show">
+          <div class="works">
+            <div class="work-item">
+              <div class="card"><a href="https://shielded-brook-17759.herokuapp.com/" target="_blank"><img src="img/memorycard.PNG"/></a></div>
+              <div class="work-description">
+                    <div>
+                        <h2>Memory Card</h2>
+                        <p>Login and save your memory cards.</p>
+                        <p>Technology required: CSS, Javascript, MongoDB, Express </p>
+                    </div>
+                    <div>
+                      <a href="https://shielded-brook-17759.herokuapp.com/" target="_blank">  <button class="btn btn-primary">Live</button></a>
+                      <a href="https://github.com/Munkhtur/memorycard" target="_blank"><button class="btn btn-primary">Code</button></a>
+                    </div>
+              </div>
+            </div>
+            <div class="work-item">
+              <div class="card"><a href="https://naughty-kowalevski-14c07f.netlify.app/" target="_blank"><img src="img/merng1.PNG"/></a></div>
+              <div class="work-description">
+                    <div>
+                        <h2>Social app</h2>
+                        <p>Login, post, like and comment</p>
+                        <p>Technology required: Semantic UI, React, MongoDB, GraphQL, Express </p>
+                    </div>
+                  <a href="https://naughty-kowalevski-14c07f.netlify.app" target="_blank">  <button class="btn btn-primary">Visit Page</button></a>
+                  <a href="https://github.com/Munkhtur/merng-client" target="_blank"><button class="btn btn-primary">Code</button></a>
+              </div>
+            </div>
+            <div class="work-item">
+              <div class="card"><a href="https://mysterious-reaches-86404.herokuapp.com/" target="_blank"><img src="img/weatherapp.PNG"/></a></div>
+              <div class="work-description">
+                    <div>
+                        <h2>Weather app</h2>
+                        <p>Look up current weather condition in any given city</p>
+                        <p>Technology required: fetch API, Javascript, Bootstrap </p>
+                    </div>
+                    <a href="https://mysterious-reaches-86404.herokuapp.com/" target="_blank"><button class="btn btn-primary">Visit Page</button></a>
+                    <a href="https://github.com/Munkhtur/WeatherApp" target="_blank"><button class="btn btn-primary">Code</button></a>
+              </div>
+            </div>
+            <div class="work-item">
+              <div class="card">
+                <a href="https://mysterious-plateau-87664.herokuapp.com/" target="_blank">
+                  <img src="img/micropost.PNG"/>
+                </a>
+              </div>
+              <div class="work-description">
+                    <div>
+                        <h2>Micro Post</h2>
+                        <p>Cheap version of twitter.</p>
+                        <p>Technology required: Materialize, Javascript, Express, MongoDB </p>
+                    </div>
+                    <a href="https://mysterious-plateau-87664.herokuapp.com/" target="_blank"><button class="btn btn-primary">Visit Page</button></a>
+                    <a href="https://github.com/Munkhtur/micropost" target="_blank"><button class="btn btn-primary">Code</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Tab content 2 -->
+        <div id="tab-2-content" class="tab-content-item">
+          <div class="about">
+            <h1 class="large">About me</h1>
+            <p class="">
+              Hi, my name is Munkhtur. I am a recent graduate from Kent Institute in Sydney, working to become fullstack developer.  
+            </p>
+            <br/>
+            <p>I'm currently concentrated on Javascript development. As well as learning plain javascript script development, I'm working on mastering various libraries and frameworks, 
+              such as React, Node and more. 
+            </p>
+          </div>
+        </div>
+
+        <!-- Tab content 3  -->
+        <div id="tab-3-content" class="tab-content-item">
+          <div class="skills-list">
+            <div>
+              <i class="devicon-git-plain colored"></i>
+            </div>
+            <div>
+              <i class="devicon-html5-plain colored"></i>
+            </div>
+            <div>
+              <i class="devicon-css3-plain colored"></i>
+            </div>
+            <div>
+              <i class="devicon-bootstrap-plain colored"></i>
+            </div>
+            <div>
+              <i class="devicon-github-plain-wordmark"></i>
+            </div>
+            <div>
+              <i class="devicon-nodejs-plain colored"></i>
+            </div>
+            <div>
+              <i class="devicon-javascript-plain colored"></i>
+            </div>
+            <div>
+              <i class="devicon-mongodb-plain-wordmark colored"></i>
+            </div>
+            <div>
+              <i class="devicon-photoshop-plain colored"></i>
+            </div>
+            <div>
+              <i class="devicon-react-original colored"></i>
+            </div>
+            <div>
+              <i class="devicon-sass-original colored"></i>
+            </div>
+            <div><i class="devicon-mysql-plain-wordmark colored"></i></div>
+            <div><i class="devicon-express-original-wordmark"></i></div>
+            <div>
+              <p class="loading"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab content 4  -->
+        <div id="tab-4-content" class="tab-content-item">
+            <div class="contact-tab">
+            <div class="contact-form">
+                <div class="form-group">
+                    <form id="contact-form" action="https://formspree.io/mdowaodj" method="POST">
+                        <label>Name</label>
+                        <input type="text" placeholder="Your Name ..." id="contact-name" class="form-control" required/>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="text" placeholder="Your email ..." id="contact-email" class="form-control" required/>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                            <textarea placeholder="" cols="30" rows="10" id="contact-message" required></textarea>
+                    </div>
+                  <button type="submit" id="send-button" class="btn btn-primary">Send</button>
+                </form>
+              </div>
+              <div class="social">
+                <ul>
+                    <li><a href="mailto:gmunkhtur@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> gmunkhtur@gmail</a></li>
+                    <li><a href="http://www.github.com/Munkhtur" target="_blank"><i class="fab fa-github-square"></i> Github</a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i> Linkedin</a></li>
+                </ul>
+              </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li><a href="mailto:gmunkhtur@gmail.com"><i class="fas fa-envelope"></i> </a></li>
+        <li><a href="http://www.github.com/Munkhtur"><i class="fab fa-github-square"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      </ul>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
