@@ -1,226 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel='shortcut icon' type='image/png' href='img/icon.png'/>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function(){
-           emailjs.init('user_9yHhgMG0AV7gN3D71caKH');
-        })();
-    </script>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Portfolio - Munkhtur</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
     <script
-      src="https://kit.fontawesome.com/87f14d78d7.js"
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Simple line icons-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google fonts-->
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
     />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="dist/css/style.min.css" />
-    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.14.0/devicon.min.css"
+      integrity="sha512-Fx1qTIVtFTb41Tqu+TxfaaPCcpmkRIbOIKh+4OIwVYAECoW89rz4BnRy95Vu8MYSRgghC3pS9mJ435hzarnZcw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+      (function(){
+         emailjs.init('user_9yHhgMG0AV7gN3D71caKH');
+      })();
+  </script>
   </head>
-  <body>
-    <nav class="navbar bg-primary">
-      <h1>
-        <a href="#"><i class="fas fa-code"></i></a>
-      </h1>
-      <ul>
-        <li><a href="img/Resume.pdf" target="_blank">Download resume</a></li>
-        <li><a href="#tabs" class="about-nav">About</a></li>
-        <li><a href="#tabs" class="contact-nav">Contact</a></li>
+
+  <body id="page-top">
+    <!-- Navigation-->
+    <a id="menu-toggle" class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-item sidebar-brand"><a href="#page-top"></a></li>
+        <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#page-top">Home</a></li>
+        <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#portfolio">Projects</a></li>
+        <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#about">About</a></li>
+        <li class="sidebar-nav-item"><a class="js-scroll-trigger" href="#contact">Contact</a></li>
+        <li class="sidebar-nav-item"><a target="_blank" class="js-scroll-trigger" href="/assets/munkhtur-resume.pdf">Resume</a></li>
       </ul>
     </nav>
-    <section class="landing">
-      <div class="dark-overlay">
-        <div class="landing-inner">
-          <h1 class="x-large headline">WELCOME</h1>
-          <p class="lead"> <span class="bio">Hello, I am Munkhtur,</span> </p>
-          <p class="lead">
-            <span class="txt-type" data-wait='3000' data-words='["aspiring developer", "designer", "learner"]'></span></p>
+
+    <!-- Header-->
+    <header class="masthead d-flex align-items-center">
+      <div class="container px-4 px-lg-5 text-center">
+        <h3 class=""><em>I'm Munkhtur, </em></h3>
+        <h1 class="mb-5">Full stack software developer</h1>
+        <a class="main-button" href="#portfolio">Find Out More</a>
+      </div>
+    </header>
+
+    <!-- Portfolio -->
+
+    <div class="portfolio-container" id="portfolio">
+      <div class="content-header">
+        <h3 class="header-one mb-0">Portfolio</h3>
+        <h2 class="header-two">Recent Projects</h2>
+      </div>
+      <div class="p-content"></div>
+      <div class="pagination"></div>
+    </div>
+
+    <!-- About-->
+    <section id="about" class="content-section text-white text-center about">
+      <div class="container px-4 px-lg-5">
+        <div class="content-section-heading">
+          <h3  class="header-one mb-2">About</h3>
+          <p>
+            My name is Munkhtur. I am a full stack developer with two years of experience in building web apps and APIs. I'm also an offensive security and penetration testing enthusiast. Check out my TryHackMe <a target="_blank" href="https://tryhackme.com/p/turu">profile</a>. 
+          </p>
         </div>
       </div>
     </section>
-    <a name="tabs"></a>
-    <section class="tabs bg-secondary" >
-      <div class="container">
-        <div id="tab-1" class="tab-item tab-border">
-            <i class="fas fa-code-branch fa-2x"></i>
-          <p class="hide-sm">Projects</p>
+
+    <!-- Skills-->
+    <section class="skills-section" id="skills">
+      <div class="content-section-heading">
+        <h3 class="header-one">Skills</h3>
+      </div>
+      <div class="skills-list">
+        <div class="list-icon">
+          <i class="devicon-git-plain colored"></i>
         </div>
-        <div id="tab-2" class="tab-item">
-          <i class="fas fa-user fa-2x"></i>
-          <p class="hide-sm">About</p>
+        <div class="list-icon">
+          <i class="devicon-html5-plain colored"></i>
         </div>
-        <div id="tab-3" class="tab-item">
-          <i class="fa fa-cogs fa-2x" aria-hidden="true"></i>
-          <p class="hide-sm">Skills</p>
+        <div class="list-icon">
+          <i class="devicon-css3-plain colored"></i>
         </div>
-        <div id="tab-4" class="tab-item">
-          <i class="fas fa-address-card fa-2x"></i>
-          <p class="hide-sm">Contact</p>
+        <div class="list-icon">
+          <i class="devicon-bootstrap-plain colored"></i>
         </div>
+        <div class="list-icon">
+          <i class="devicon-bash-plain colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-nodejs-plain colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-javascript-plain colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-photoshop-plain colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-react-original colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-sass-original colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-mysql-plain-wordmark colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-express-original-wordmark"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-django-plain colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-flask-original-wordmark colored"></i>
+        </div>
+        <div class="list-icon">
+          <i class="devicon-python-plain colored"></i>
+        </div>
+
       </div>
     </section>
-    <section class="tab-content">
-      <div class="container">
-        <!-- tab content 1 -->
-        <div id="tab-1-content" class="tab-content-item show">
-          <div class="works">
-            <div class="work-item">
-              <div class="card"><a href="https://shielded-brook-17759.herokuapp.com/" target="_blank"><img src="img/memorycard.PNG"/></a></div>
-              <div class="work-description">
-                    <div>
-                        <h2>Memory Card</h2>
-                        <p>Login and save your memory cards.</p>
-                        <p>Technology required: CSS, Javascript, MongoDB, Express </p>
-                    </div>
-                    <div>
-                      <a href="https://shielded-brook-17759.herokuapp.com/" target="_blank">  <button class="btn btn-primary">Visit Page</button></a>
-                      <a href="https://github.com/Munkhtur/memorycard" target="_blank"><button class="btn btn-primary">Code</button></a>
-                    </div>
-              </div>
-            </div>
-            <div class="work-item">
-              <div class="card"><a href="https://naughty-kowalevski-14c07f.netlify.app/" target="_blank"><img src="img/merng1.PNG"/></a></div>
-              <div class="work-description">
-                    <div>
-                        <h2>Social app</h2>
-                        <p>Login, post, like and comment</p>
-                        <p>Technology required: Semantic UI, React, MongoDB, GraphQL, Express </p>
-                    </div>
-                  <a href="https://naughty-kowalevski-14c07f.netlify.app" target="_blank">  <button class="btn btn-primary">Visit Page</button></a>
-                  <a href="https://github.com/Munkhtur/merng-client" target="_blank"><button class="btn btn-primary">Code</button></a>
-              </div>
-            </div>
-            <div class="work-item">
-              <div class="card"><a href="https://mysterious-reaches-86404.herokuapp.com/" target="_blank"><img src="img/weatherapp.PNG"/></a></div>
-              <div class="work-description">
-                    <div>
-                        <h2>Weather app</h2>
-                        <p>Look up current weather condition in any given city</p>
-                        <p>Technology required: fetch API, Javascript, Bootstrap </p>
-                    </div>
-                    <a href="https://mysterious-reaches-86404.herokuapp.com/" target="_blank"><button class="btn btn-primary">Visit Page</button></a>
-                    <a href="https://github.com/Munkhtur/WeatherApp" target="_blank"><button class="btn btn-primary">Code</button></a>
-              </div>
-            </div>
-            <div class="work-item">
-              <div class="card">
-                <a href="https://mysterious-plateau-87664.herokuapp.com/" target="_blank">
-                  <img src="img/micropost.PNG"/>
+    <!-- Call to Action-->
+    <section class="action" id='contact'>
+      <div class="contact-container ">
+        <h2 class="header-one mb-4">Contact</h2>
+        <div class="contact-inner">
+          <div class="contact-form">
+            <form  action="https://formspree.io/mdowaodj" method="post">
+                <div class="">
+                  <input name="name" placeholder="Name" type="text" required maxlength="30"/>
+                </div>
+                <div class="">
+                  <input name="email" placeholder="Email" type="email" required maxlength="30"/>
+                </div>
+                <div class="textarea">
+                  <textarea name="message" placeholder="Message" required maxlength="500"></textarea>
+                </div>
+                <!-- <a href="#" class="main-button" type="submit"> Send Message</a> -->
+                <button class="main-button" type="submit">Send Message</button>
+              </form>
+  
+              
+          </div>
+          <div class="contact-list">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a target="_blank" href="https://github.com/Munkhtur" class="social-link">
+                  <i class="icon-social-github"></i
+                ></a>
+              </li>
+              <li class="list-inline-item">
+                <a  href="mailto: gmunkhtur@gmail.com" class="social-link">
+                  <i class="icon-envelope"></i>
                 </a>
-              </div>
-              <div class="work-description">
-                    <div>
-                        <h2>Micro Post</h2>
-                        <p>Cheap version of twitter.</p>
-                        <p>Technology required: Materialize, Javascript, Express, MongoDB </p>
-                    </div>
-                    <a href="https://mysterious-plateau-87664.herokuapp.com/" target="_blank"><button class="btn btn-primary">Visit Page</button></a>
-                    <a href="https://github.com/Munkhtur/micropost" target="_blank"><button class="btn btn-primary">Code</button></a>
-              </div>
-            </div>
+              </li>
+              <li class="list-inline-item">
+                <a target="_blank" href="https://linkedin.com/in/gmunkhtur" class="social-link">
+                  <i class="icon-social-linkedin"></i>
+                </a>
+              </li>
+            </ul>
           </div>
-        </div>
-        <!-- Tab content 2 -->
-        <div id="tab-2-content" class="tab-content-item">
-          <div class="about">
-            <h1 class="large">About me</h1>
-            <p class="">
-              Hi, my name is Munkhtur. I am a recent graduate from Kent Institute in Sydney, working to become fullstack developer.  
-            </p>
-            <br/>
-            <p>I'm currently concentrated on Javascript development. As well as learning plain javascript script development, I'm working on mastering various libraries and frameworks, 
-              such as React, Node and more. 
-            </p>
-          </div>
-        </div>
 
-        <!-- Tab content 3  -->
-        <div id="tab-3-content" class="tab-content-item">
-          <div class="skills-list">
-            <div>
-              <i class="devicon-git-plain colored"></i>
-            </div>
-            <div>
-              <i class="devicon-html5-plain colored"></i>
-            </div>
-            <div>
-              <i class="devicon-css3-plain colored"></i>
-            </div>
-            <div>
-              <i class="devicon-bootstrap-plain colored"></i>
-            </div>
-            <div>
-              <i class="devicon-github-plain-wordmark"></i>
-            </div>
-            <div>
-              <i class="devicon-nodejs-plain colored"></i>
-            </div>
-            <div>
-              <i class="devicon-javascript-plain colored"></i>
-            </div>
-            <div>
-              <i class="devicon-mongodb-plain-wordmark colored"></i>
-            </div>
-            <div>
-              <i class="devicon-photoshop-plain colored"></i>
-            </div>
-            <div>
-              <i class="devicon-react-original colored"></i>
-            </div>
-            <div>
-              <i class="devicon-sass-original colored"></i>
-            </div>
-            <div><i class="devicon-mysql-plain-wordmark colored"></i></div>
-            <div><i class="devicon-express-original-wordmark"></i></div>
-            <div>
-              <p class="loading"></p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Tab content 4  -->
-        <div id="tab-4-content" class="tab-content-item">
-            <div class="contact-tab">
-            <div class="contact-form">
-                <div class="form-group">
-                    <form id="contact-form" action="https://formspree.io/mdowaodj" method="POST">
-                        <label>Name</label>
-                        <input type="text" placeholder="Your Name ..." id="contact-name" class="form-control" required/>
-                    </div>
-                    <div class="form-group">
-                        <label>Email</label>
-                        <input type="text" placeholder="Your email ..." id="contact-email" class="form-control" required/>
-                    </div>
-                    <div class="form-group">
-                        <label>Message</label>
-                            <textarea placeholder="" cols="30" rows="10" id="contact-message" required></textarea>
-                    </div>
-                  <button type="submit" id="send-button" class="btn btn-primary">Send</button>
-                </form>
-              </div>
-              <div class="social">
-                <ul>
-                    <li><a href="mailto:gmunkhtur@gmail.com" target="_blank"> <i class="fas fa-envelope"></i> gmunkhtur@gmail</a></li>
-                    <li><a href="http://www.github.com/Munkhtur" target="_blank"><i class="fab fa-github-square"></i> Github</a></li>
-                    <li><a href="http://www.linkedin.com/in/gmunkhtur"><i class="fab fa-linkedin"></i> Linkedin</a></li>
-                </ul>
-              </div>
-        </div>
+          <p class="text-faded small mb-0">Copyright &copy; 2021</p>
         </div>
       </div>
     </section>
-    <footer>
-      <ul>
-        <li><a href="mailto:gmunkhtur@gmail.com"><i class="fas fa-envelope"></i> </a></li>
-        <li><a href="http://www.github.com/Munkhtur"><i class="fab fa-github-square"></i></a></li>
-        <li><a href="http://www.linkedin.com/in/gmunkhtur"><i class="fab fa-linkedin"></i></a></li>
-      </ul>
-    </footer>
-    <script src="js/main.js"></script>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top"
+      ><i class="fas fa-angle-up"></i
+    ></a>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script type="module" src="js/slider.js"></script>
   </body>
 </html>
