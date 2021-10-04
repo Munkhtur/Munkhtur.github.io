@@ -369,6 +369,9 @@ footer.footer .social-link:hover {
 .item-3 {
   background: url(/assets/img/Colored\ Shapes.svg);
 }
+.item-4 {
+  background: url(/assets/img/colored5.svg);
+}
 
 .description h2 {
   font-size: 1.5em;
@@ -505,6 +508,10 @@ footer.footer .social-link:hover {
   }
   .img-3 {
     background: url(/assets/img/Colored\ Shapes.svg);
+    background-size: cover;
+  }
+  .img-4 {
+    background: url(/assets/img/colored5.svg);
     background-size: cover;
   }
   .item .description {

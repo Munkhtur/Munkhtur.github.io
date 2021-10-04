@@ -1,5 +1,14 @@
 export default [
   {
+    title: 'Image Colorizer',
+    image: 'colorizer.png',
+    description:
+      'Image colorizer analyzes black and white pictures and turns them into color photos using deep learning and machine learning techniques.',
+    tools: 'React | Python | Flask',
+    repoLink: 'https://github.com/Munkhtur/Image-Colorizer',
+    liveLink: 'https://frozen-fjord-32932.herokuapp.com/',
+  },
+  {
     title: 'Blogger platform',
     image: 'blog.jpg',
     description:
