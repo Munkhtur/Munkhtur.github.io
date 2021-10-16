@@ -9,6 +9,15 @@ export default [
     liveLink: 'https://frozen-fjord-32932.herokuapp.com/',
   },
   {
+    title: 'Flashcards',
+    image: 'flashcards.png',
+    description:
+      'Simple vocabulary flashcard app. Supports full backend with login and registration to add new cards.',
+    tools: 'Svelte| Firebase ',
+    repoLink: 'https://github.com/Munkhtur/Flashcards',
+    liveLink: 'https://myproject-dc446.web.app/',
+  },
+  {
     title: 'Blogger platform',
     image: 'blog.jpg',
     description:
@@ -16,15 +25,6 @@ export default [
     tools: 'Python | Flask | SqlAlchemy',
     repoLink: 'https://github.com/Munkhtur/flask-blogger',
     liveLink: 'https://secure-citadel-72831.herokuapp.com/',
-  },
-  {
-    title: 'Flashcards',
-    image: 'memory.jpg',
-    description:
-      'Simple vocabulary flashcard app. Supports full backend with login and registration to add new cards.',
-    tools: 'Javascript| MongoDB | NodeJs | Express ',
-    repoLink: 'https://github.com/Munkhtur/memorycard',
-    liveLink: 'https://shielded-brook-17759.herokuapp.com/',
   },
   {
     title: 'Social app',
