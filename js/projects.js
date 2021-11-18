@@ -12,8 +12,8 @@ export default [
     title: 'Flashcards',
     image: 'flashcards.png',
     description:
-      'Simple vocabulary flashcard app. Supports full backend with login and registration to add new cards.',
-    tools: 'Svelte| Firebase ',
+      'Vocabulary builder flashcard PWA. Supports full backend with login and registration to add new cards.',
+    tools: 'Svelte | Firebase ',
     repoLink: 'https://github.com/Munkhtur/Flashcards',
     liveLink: 'https://myproject-dc446.web.app/',
   },
